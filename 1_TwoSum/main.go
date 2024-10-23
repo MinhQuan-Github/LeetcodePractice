@@ -24,7 +24,7 @@ Output: [0,1]
 
 package main
 
-import "fmt"
+import "log"
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
@@ -39,5 +39,5 @@ func twoSum(nums []int, target int) []int {
 
 func main() {
 	a := twoSum([]int{2, 7, 11, 15}, 9)
-	fmt.Print(a)
+	log.Print(a)
 }
